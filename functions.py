@@ -19,6 +19,12 @@ def is_even(x):
         return True
     else:
         return False
+    
+def is_even2(x):
+    return True if x % 2 == 0 else False
+
+def is_even3(x):
+    return x % 2 == 0
 
 def square(n):
     return n * n
