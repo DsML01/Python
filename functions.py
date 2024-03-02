@@ -6,10 +6,12 @@ def main():
     x = int(input("X = "))
     y = int(input("Y = "))
 
-    print(sum(x, y))
+    print("X + Y = " ,sum(x, y))
+    print("X squared is ", square(x))
 
 
-
+def square(n):
+    return n * n
 
 #if you call the function without passing arguments, it's gonna use " name = "User" " by default
 def hello(name = "user"):
