@@ -1,6 +1,6 @@
 def main():
     i = 1
-    max = int()
+    max = 0
 
     for i in  range(10):
         a = int(input(" "))
