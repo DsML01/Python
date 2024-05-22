@@ -7,10 +7,10 @@ def main():
         
         if(item >= 0):
             media += item
-            cont += 1
+            count += 1
 
         else:
-            print(media/cont)
+            print(media/count)
             break
 
 
