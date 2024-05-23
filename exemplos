@@ -1,0 +1,37 @@
+
+Leia um valor inteiro N. Este valor será a quantidade de valores que serão lidos em seguida. Para cada valor lido, mostre uma mensagem em português dizendo se este valor lido é PAR POSITIVO, PAR NEGATIVO, ÍMPAR POSITIVO, ÍMPAR NEGATIVO ou  NULO.
+    * Entrada:
+A primeira linha da entrada contém um valor inteiro N(N < 10000) que indica o número de casos de teste. Cada caso de teste a seguir é um valor inteiro X (-10^4 < X <10^4).
+    * Saída:
+Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo abaixo. Todas as letras deverão ser maiúsculas e sempre deverá haver um espaço entre duas palavras impressas na mesma linha.
+    * Exemplo de saída:
+ÍMPAR NEGATIVO
+ÍMPAR POSITIVO
+NULO
+PAR NEGATIVO
+PAR POSITIVO
+
+Exemplo de entrada:
+4
+-5
+3
+0
+-4
+32
+
+----------------------------------------
+
+Faça um algoritmo para ler um número indeterminado de dados, contendo cada um, a idade de um indivíduo. O último dado, que não entrará nos cálculos, contém o valor de idade negativa. Calcular e imprimir a idade média deste grupo de indivíduos.
+Entrada
+A entrada contém um número indeterminado de inteiros. A entrada será encerrada quando um valor negativo for lido.
+Saída
+A saída contém um valor correspondente à média de idade dos indivíduos.
+A média deve ser impressa com dois dígitos após o ponto decimal.
+Exemplo entrada:
+34
+56
+44
+23
+-2
+Exemplo saída:
+39.25
